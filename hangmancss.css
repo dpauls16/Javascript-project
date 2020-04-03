@@ -1,0 +1,58 @@
+/* Customizes all the fonts on the page. */
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background: #B20940;
+    color: #fff;
+    font-weight: 300;
+}
+
+/* Sets the location of all H1 items on the page */
+h1 {
+    text-align: center;
+}
+
+/* customizes the size of the canvas on the page*/
+canvas {
+    width: 100%;
+    height: 350px;
+}
+
+/* sets location of guesses information*/
+#count {
+    text-align: right;
+}
+
+/* sets the location of the Restart button on the page.*/
+#restart {
+    position:relative;
+    left:45%;
+}
+
+/* customizes the styling of the restart button*/
+#restart button {
+    background-color: White;
+    border: 1px solid black;
+    color: Black;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+
+/* gets rid of the bullet points on the buttons*/
+#buttons {
+    list-style-type: none;
+}
+
+/* styles the buttons in the buttons section of the page.*/
+#buttons button {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: White;
+    border: 1px solid black;
+    color: Black;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+}
+
+
