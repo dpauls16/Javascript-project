@@ -31,6 +31,11 @@
   margin-bottom: 55px;
 }
 
+/* Formats help button */
+#help {
+  margin-top: 10px;
+}
+
 .form-control:focus {
   border-color: limegreen;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 255, 0, 0.6);
